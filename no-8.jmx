@@ -23,10 +23,10 @@
         <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager">
           <collectionProp name="CookieManager.cookies"/>
           <boolProp name="CookieManager.clearEachIteration">true</boolProp>
-          <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+          <boolProp name="CookieManager.controlledByThreadGroup">true</boolProp>
         </CookieManager>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login">
           <stringProp name="HTTPSampler.domain">gryffindor.hogwarts.d02.com</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.path">/php/login.php</stringProp>
